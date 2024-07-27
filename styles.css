@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+  }
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+}
+
+
+.tarjeta {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta-articulo.tarjeta-primaria {
+    border-left: 5px solid #007bff;
+}
+
+.tarjeta-articulo.tarjeta-secundaria {
+    border-left: 5px solid #6c757d;
+}
+
+.tarjeta-galeria.tarjeta-bordeada {
+    border: 1px solid #ddd;
+}
+
+.tarjeta-galeria.tarjeta-sombra {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.galeria {
+    display: flex;
+    gap: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.tarjeta-notificacion.tarjeta-informacion {
+    background-color: #e7f3fe;
+    border-left: 5px solid #2196f3;
+}
+
+.tarjeta-notificacion.tarjeta-advertencia {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+}
+
+.tarjeta-perfil img {
+    width: 100%;
+    border-radius: 20%;
+}
+
+.tarjeta-perfil.tarjeta-redondeada img {
+
+    margin: 0% auto;
+    width: 200PX;
+}
+
+.tarjeta-perfil.tarjeta-grande img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+/* Modificadores de Tarjeta de Comentario */
+.tarjeta-comentario {
+    border-left: 5px solid;
+}
+
+.tarjeta-comentario.tarjeta-exito {
+    border-color: #28a745;
+    background-color: #d4edda;
+}
+
+.tarjeta-comentario.tarjeta-error {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+/* Modificadores de Tarjeta de Producto */
+.tarjeta-producto {
+    border-left: 5px solid;
+}
+
+.tarjeta-producto.tarjeta-destacado {
+    border-color: #ffc107;
+    background-color: #fff3cd;
+}
+
+.tarjeta-producto.tarjeta-oferta {
+    border-color: #17a2b8;
+    background-color: #d1ecf1;
+}
+
+/* Modificadores de Tarjeta de Testimonio */
+.tarjeta-testimonio {
+    border-left: 5px solid;
+}
+
+.tarjeta-testimonio.tarjeta-corto {
+    border-color: #6c757d;
+    background-color: #e2e3e5;
+}
+
+.tarjeta-testimonio.tarjeta-largo {
+    border-color: #007bff;
+    background-color: #cce5ff;
+}
+
+/* Modificadores de Tarjeta de Evento */
+.tarjeta-evento {
+    border-left: 5px solid;
+}
+
+.tarjeta-evento.tarjeta-proximo {
+    border-color: #28a745;
+    background-color: #d4edda;
+}
+
+.tarjeta-evento.tarjeta-pasado {
+    border-color: #6c757d;
+    background-color: #e2e3e5;
+}/* Modificadores de Tarjeta de Comentario */
+.tarjeta-comentario {
+    border-left: 5px solid;
+}
+
+.tarjeta-comentario.tarjeta-exito {
+    border-color: #28a745;
+    background-color: #d4edda;
+}
+
+.tarjeta-comentario.tarjeta-error {
+    border-color: #dc3545;
+    background-color: #f8d7da;
+}
+
+/* Modificadores de Tarjeta de Producto */
+.tarjeta-producto {
+    border-left: 5px solid;
+}
+
+.tarjeta-producto.tarjeta-destacado {
+    border-color: #ffc107;
+    background-color: #fff3cd;
+}
+
+.tarjeta-producto.tarjeta-oferta {
+    border-color: #17a2b8;
+    background-color: #d1ecf1;
+}
+
+/* Modificadores de Tarjeta de Testimonio */
+.tarjeta-testimonio {
+    border-left: 5px solid;
+}
+
+.tarjeta-testimonio.tarjeta-corto {
+    border-color: #6c757d;
+    background-color: #e2e3e5;
+}
+
+.tarjeta-testimonio.tarjeta-largo {
+    border-color: #007bff;
+    background-color: #cce5ff;
+}
+
+/* Modificadores de Tarjeta de Evento */
+.tarjeta-evento {
+    border-left: 5px solid;
+}
+
+.tarjeta-evento.tarjeta-proximo {
+    border-color: #28a745;
+    background-color: #d4edda;
+}
+
+.tarjeta-evento.tarjeta-pasado {
+    border-color: #6c757d;
+    background-color: #e2e3e5;
+}
